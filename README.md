@@ -108,11 +108,9 @@ Cross lingual models are based on several key concepts, transformers is one of t
 
 ![model](https://www.markopolo.ai/assets/blog/articles/intro-to-romanian-bangla-nlp/image3.png)
 
-The paper Cross-lingual Language Model Pretraining presents two innovative ideas — a new training technique of BERT for multilingual classNameification tasks and the use of BERT as initialization of machine translation models.
+The paper Cross-lingual Language Model Pretraining presents two innovative ideas — a new training technique of BERT for multilingual classification tasks and the use of BERT as initialization of machine translation models.
 
-XLM-R: State-of-the-art cross-lingual understanding through self-supervision model
-
-handles the following 100 languages: Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Basque, Belarusian, Bengali, Bengali Romanized, Bosnian, Breton, Bulgarian, Burmese, Burmese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Filipino, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi, Hindi Romanized, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Korean, Kurdish (Kurmanji), Kyrgyz, Lao, Latin, Latvian, Lithuanian, Macedonian, Malagasy, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian, Oriya, Oromo, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Sanskri, Scottish, Gaelic, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tamil, Tamil Romanized, Telugu, Telugu Romanized, Thai, Turkish, Ukrainian, Urdu, Urdu Romanized, Uyghur, Uzbek, Vietnamese, Welsh, Western, Frisian, Xhosa, Yiddish.
+XLM-R: State-of-the-art cross-lingual understanding through self-supervision model handles the following 100 languages: Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Basque, Belarusian, Bengali, Bengali Romanized, Bosnian, Breton, Bulgarian, Burmese, Burmese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Filipino, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi, Hindi Romanized, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Korean, Kurdish (Kurmanji), Kyrgyz, Lao, Latin, Latvian, Lithuanian, Macedonian, Malagasy, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian, Oriya, Oromo, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Sanskri, Scottish, Gaelic, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tamil, Tamil Romanized, Telugu, Telugu Romanized, Thai, Turkish, Ukrainian, Urdu, Urdu Romanized, Uyghur, Uzbek, Vietnamese, Welsh, Western, Frisian, Xhosa, Yiddish.
 
 As we can see that the model already knows Bengali and Bengali Romanized so we can use cross lingual model like this to solve some Romanic Bangla document classification  problem
 
@@ -124,3 +122,5 @@ In picture below, L1 means language 1 and L2 means language 2.
 
 
 ![model](https://www.markopolo.ai/assets/blog/articles/intro-to-romanian-bangla-nlp/image4.jpg)
+
+if we want to deploy such custom tf 2.x trained models using aws sagemaker then we can follow this step by step process tutorial [Deploy trained TensorFlow 2.x models using Amazon SageMaker](https://github.com/mobassir94/Deploy-trained-TensorFlow-2.x-models-using-Amazon-SageMaker) 
