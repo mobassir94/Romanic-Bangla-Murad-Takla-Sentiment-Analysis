@@ -99,3 +99,28 @@ Tryout the rest on your own . Or even better, come up with your own “Murad Tak
 A caution to keep in mind that these operations, while applicable to most, will not cover the whole spectrum of “Murad Takla”.
 
 reference : https://www.markopolo.ai/blog/articles/kala-hoba by @mnansary
+
+# How can we deal with this language distortion problem?
+
+For approaching various pure Bengali natural language processing task we have something like BNLP toolkit but for problems like Bengali Romanized, misspelled (phonetically incorrect) Bengali Romanized, misspelled (phonetically incorrect)  Bengali we are lacking resources and support.
+
+Cross lingual models are based on several key concepts, transformers is one of them. The Transformer architecture is at the core of almost all the recent major developments in NLP.It introduced an attention mechanism that processes the entire text input simultaneously to learn contextual relations between words (or sub-words). A Transformer includes two parts — an encoder that reads the text input and generates a lateral representation of it (e.g. a vector for each word), and a decoder that produces the translated text from that representation. Let’s begin by looking at the model as a single black box. In a machine translation application, it would take a sentence in one language (for example: in English), and output its translation in another (for example:  in Romanic Bangla). For better understanding please check the figure attached:
+
+![model](https://www.markopolo.ai/assets/blog/articles/intro-to-romanian-bangla-nlp/image3.png)
+
+The paper Cross-lingual Language Model Pretraining presents two innovative ideas — a new training technique of BERT for multilingual classNameification tasks and the use of BERT as initialization of machine translation models.
+
+XLM-R: State-of-the-art cross-lingual understanding through self-supervision model
+
+handles the following 100 languages: Afrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Basque, Belarusian, Bengali, Bengali Romanized, Bosnian, Breton, Bulgarian, Burmese, Burmese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English, Esperanto, Estonian, Filipino, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hausa, Hebrew, Hindi, Hindi Romanized, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Javanese, Kannada, Kazakh, Khmer, Korean, Kurdish (Kurmanji), Kyrgyz, Lao, Latin, Latvian, Lithuanian, Macedonian, Malagasy, Malay, Malayalam, Marathi, Mongolian, Nepali, Norwegian, Oriya, Oromo, Pashto, Persian, Polish, Portuguese, Punjabi, Romanian, Russian, Sanskri, Scottish, Gaelic, Serbian, Sindhi, Sinhala, Slovak, Slovenian, Somali, Spanish, Sundanese, Swahili, Swedish, Tamil, Tamil Romanized, Telugu, Telugu Romanized, Thai, Turkish, Ukrainian, Urdu, Urdu Romanized, Uyghur, Uzbek, Vietnamese, Welsh, Western, Frisian, Xhosa, Yiddish.
+
+As we can see that the model already knows Bengali and Bengali Romanized so we can use cross lingual model like this to solve some Romanic Bangla document classification  problem
+
+In The process of cross-lingual document classification, we assume that the opinion units have already been determined. The English train set is used to train a classifier. The Banglish/Romanic Bangla test set is mapped accordingly and the classifier is tested on this cross-lingual test set. Check the pictures attached for better understanding:
+
+![model](https://www.markopolo.ai/assets/blog/articles/intro-to-romanian-bangla-nlp/image2.png)
+
+In picture below, L1 means language 1 and L2 means language 2.
+
+
+![model](https://www.markopolo.ai/assets/blog/articles/intro-to-romanian-bangla-nlp/image4.jpg)
