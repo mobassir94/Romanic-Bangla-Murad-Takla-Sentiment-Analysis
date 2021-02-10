@@ -129,7 +129,10 @@ ref : https://www.markopolo.ai/blog/articles/introduction-to-romanic-bangla-nlp
 
 # Training Pipeline Details
 my training setup is slightly different than what is discussed in previous section,i prepared the training and validation dataset like this : 
+
 step 1 : i merged trained and validation set of [Stanford Sentiment Treebank v2 (SST2) dataset together](https://www.kaggle.com/atulanandjha/stanford-sentiment-treebank-v2-sst2) 
+
 step 2 : i merge/mix this full [Bengali News Comments dataset](https://data.mendeley.com/datasets/n53xt69gnf/3) with newly created sst-2 train dataset
+
 step 3 : i merge/mix randomly selected 70% data from this [RomanicBanglaSentiment](https://www.kaggle.com/mobassir/romanicbanglasentiment)  dataset with newly created train dataset and remaining 30% data(1500 samples) goes into my validation set
-step 5
+
