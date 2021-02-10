@@ -143,4 +143,4 @@ check [this training notebook](https://github.com/mobassir94/Romanic-Bangla-Mura
 
 check [this inference notebook](https://github.com/mobassir94/Romanic-Bangla-Murad-Takla-Sentiment-Analysis/blob/main/inference-Romanic%20bangla-murad-takla-sentiment-analysis.ipynb) for demo gpu inference
 
-view full [train log here](https://github.com/mobassir94/Romanic-Bangla-Murad-Takla-Sentiment-Analysis/blob/main/full%20training%20log.txt)
+after fine tuning xlm roberta large i was able to achieve 0.9861 validation accuracy on 16th epoch, please view full [train log here](https://github.com/mobassir94/Romanic-Bangla-Murad-Takla-Sentiment-Analysis/blob/main/full%20training%20log.txt)
