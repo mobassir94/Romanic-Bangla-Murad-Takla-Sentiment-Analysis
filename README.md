@@ -137,3 +137,10 @@ step 2 : i merge/mix this full [Bengali News Comments dataset](https://data.mend
 step 3 : i merge/mix randomly selected 70% data from this [RomanicBanglaSentiment](https://www.kaggle.com/mobassir/romanicbanglasentiment)  dataset with newly created train dataset and remaining 30% data(1500 samples) goes into my validation set
 
 i forgot to add this line of code in training notebook : model.save_weights('model_checkpoint_1.h5') please add this just after the last cell of training notebook to save trained models best weight file for inference
+
+check [this training notebook](https://github.com/mobassir94/Romanic-Bangla-Murad-Takla-Sentiment-Analysis/blob/main/Train-Romanic%20bangla-murad-takla-sentiment-analysis-xlmr.ipynb) for training pipeline with explanation
+
+
+check [this inference notebook](https://github.com/mobassir94/Romanic-Bangla-Murad-Takla-Sentiment-Analysis/blob/main/inference-Romanic%20bangla-murad-takla-sentiment-analysis.ipynb) for demo gpu inference
+
+view full [train log here](https://github.com/mobassir94/Romanic-Bangla-Murad-Takla-Sentiment-Analysis/blob/main/full%20training%20log.txt)
