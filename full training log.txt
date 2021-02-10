@@ -1,0 +1,81 @@
+Epoch 00001: LearningRateScheduler reducing learning rate to 1e-06.
+Epoch 1/20
+1348/1348 [==============================] - 476s 353ms/step - loss: 0.7349 - auc: 0.5336 - val_loss: 0.8007 - val_auc: 0.5279 - lr: 1.0000e-06
+
+Epoch 00002: LearningRateScheduler reducing learning rate to 3.142857142857143e-06.
+Epoch 2/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.5136 - auc: 0.8193 - val_loss: 0.5528 - val_auc: 0.7527 - lr: 3.1429e-06
+
+Epoch 00003: LearningRateScheduler reducing learning rate to 5.285714285714285e-06.
+Epoch 3/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.3200 - auc: 0.9359 - val_loss: 0.4735 - val_auc: 0.8353 - lr: 5.2857e-06
+
+Epoch 00004: LearningRateScheduler reducing learning rate to 7.4285714285714275e-06.
+Epoch 4/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.2606 - auc: 0.9579 - val_loss: 0.4155 - val_auc: 0.8811 - lr: 7.4286e-06
+
+Epoch 00005: LearningRateScheduler reducing learning rate to 9.571428571428572e-06.
+Epoch 5/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.2337 - auc: 0.9661 - val_loss: 0.5485 - val_auc: 0.7820 - lr: 9.5714e-06
+
+Epoch 00006: LearningRateScheduler reducing learning rate to 1.1714285714285715e-05.
+Epoch 6/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.2024 - auc: 0.9746 - val_loss: 0.3675 - val_auc: 0.9120 - lr: 1.1714e-05
+
+Epoch 00007: LearningRateScheduler reducing learning rate to 1.3857142857142856e-05.
+Epoch 7/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.2168 - auc: 0.9708 - val_loss: 0.3386 - val_auc: 0.9232 - lr: 1.3857e-05
+
+Epoch 00008: LearningRateScheduler reducing learning rate to 1.6e-05.
+Epoch 8/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.1741 - auc: 0.9812 - val_loss: 0.3000 - val_auc: 0.9395 - lr: 1.6000e-05
+
+Epoch 00009: LearningRateScheduler reducing learning rate to 1.3933e-05.
+Epoch 9/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.1407 - auc: 0.9875 - val_loss: 0.2702 - val_auc: 0.9526 - lr: 1.3933e-05
+
+Epoch 00010: LearningRateScheduler reducing learning rate to 1.2134710000000002e-05.
+Epoch 10/20
+1348/1348 [==============================] - 425s 316ms/step - loss: 0.1133 - auc: 0.9918 - val_loss: 0.2285 - val_auc: 0.9663 - lr: 1.2135e-05
+
+Epoch 00011: LearningRateScheduler reducing learning rate to 1.05701977e-05.
+Epoch 11/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.0887 - auc: 0.9948 - val_loss: 0.1717 - val_auc: 0.9756 - lr: 1.0570e-05
+
+Epoch 00012: LearningRateScheduler reducing learning rate to 9.209071999e-06.
+Epoch 12/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.0668 - auc: 0.9969 - val_loss: 0.1956 - val_auc: 0.9794 - lr: 9.2091e-06
+
+Epoch 00013: LearningRateScheduler reducing learning rate to 8.024892639130001e-06.
+Epoch 13/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.0517 - auc: 0.9981 - val_loss: 0.1960 - val_auc: 0.9793 - lr: 8.0249e-06
+
+Epoch 00014: LearningRateScheduler reducing learning rate to 6.9946565960431e-06.
+Epoch 14/20
+1348/1348 [==============================] - 425s 316ms/step - loss: 0.0394 - auc: 0.9988 - val_loss: 0.1994 - val_auc: 0.9817 - lr: 6.9947e-06
+
+Epoch 00015: LearningRateScheduler reducing learning rate to 6.098351238557497e-06.
+Epoch 15/20
+1348/1348 [==============================] - 425s 316ms/step - loss: 0.0343 - auc: 0.9990 - val_loss: 0.1289 - val_auc: 0.9825 - lr: 6.0984e-06
+
+Epoch 00016: LearningRateScheduler reducing learning rate to 5.318565577545023e-06.
+Epoch 16/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.0287 - auc: 0.9992 - val_loss: 0.1331 - val_auc: 0.9861 - lr: 5.3186e-06
+
+Epoch 00017: LearningRateScheduler reducing learning rate to 4.640152052464169e-06.
+Epoch 17/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.0237 - auc: 0.9994 - val_loss: 0.1834 - val_auc: 0.9836 - lr: 4.6402e-06
+
+Epoch 00018: LearningRateScheduler reducing learning rate to 4.049932285643827e-06.
+Epoch 18/20
+1348/1348 [==============================] - 426s 316ms/step - loss: 0.0205 - auc: 0.9995 - val_loss: 0.1860 - val_auc: 0.9818 - lr: 4.0499e-06
+
+Epoch 00019: LearningRateScheduler reducing learning rate to 3.5364410885101295e-06.
+Epoch 19/20
+1348/1348 [==============================] - 428s 318ms/step - loss: 0.0166 - auc: 0.9997 - val_loss: 0.1809 - val_auc: 0.9804 - lr: 3.5364e-06
+
+Epoch 00020: LearningRateScheduler reducing learning rate to 3.089703747003813e-06.
+Epoch 20/20
+1348/1348 [==============================] - 430s 319ms/step - loss: 0.0159 - auc: 0.9997 - val_loss: 0.1854 - val_auc: 0.9792 - lr: 3.0897e-06
+CPU times: user 16min 4s, sys: 51.4 s, total: 16min 56s
+Wall time: 2h 26min 37s
