@@ -136,3 +136,4 @@ step 2 : i merge/mix this full [Bengali News Comments dataset](https://data.mend
 
 step 3 : i merge/mix randomly selected 70% data from this [RomanicBanglaSentiment](https://www.kaggle.com/mobassir/romanicbanglasentiment)  dataset with newly created train dataset and remaining 30% data(1500 samples) goes into my validation set
 
+i forgot to add this line of code in training notebook : model.save_weights('model_checkpoint_1.h5') please add this just after the last cell of training notebook to save trained models best weight file for inference
